@@ -3,6 +3,7 @@ import React from 'react';
 import { StyleSheet, Text, View} from 'react-native';
 import CarItem from './Components/CarItem/Cars'
 
+
 export default function App() {
   return (
     <View style={styles.container}>

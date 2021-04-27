@@ -1,9 +1,15 @@
-import {StyleSheeet} from 'react-native'
+import {StyleSheet} from 'react-native'
 
-const styles =  StyleSheeet.create({
+const styles =  StyleSheet.create({
     carContainer:{
         width:"100%",
         height:"100%",
+      },
+      image:{
+        width:"100%",
+        height:"100%",
+        position: 'absolute',
+        resizeMode:'cover'
       },
       titles:{
         marginTop:'30%',
@@ -19,12 +25,6 @@ const styles =  StyleSheeet.create({
       subtitle:{
         fontSize:16,
         color:'#5c5e62'
-      },
-      image:{
-        width:"100%",
-        height:"100%",
-        position: 'absolute',
-        resizeMode:'cover'
       }
 })
 export default styles
