@@ -16,10 +16,8 @@ const style = StyleSheet.create({
     },
     text:{
         fontSize: 12,
-        fontWeight: '500' ,
+        fontWeight: '500',
         textTransform:"uppercase"
-
-
     }
 })
 export default style
